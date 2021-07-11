@@ -1,0 +1,89 @@
+<link rel="stylesheet" type="text/css" href="karyo.css">
+<div class="dezain">
+  <h1>十二季節ドラフトメーカー「50種」</h1>
+<div class="dezain2">
+<script type="text/javascript">
+   var imglist = new Array("1.png","2.png","3.png","4.png","5.png","6.png","7.png","8.png","9.png","10.png","11.png","12.png","13.png","14.png","15.png","16.png","17.png","18.png","19.png","20.png","21.png","22.png","23.png","24.png","25.png","26.png","27.png","28.png","29.png","30.png","31.png","32.png","33.png","34.png","35.png","36.png","37.png","38.png","39.png","40.png","41.png","42.png","43.png","44.png","45.png","46.png","47.png","48.png","49.png","50.png","51.png","52.png","53.png","54.png","55.png","56.png","57.png","58.png","59.png","60.png","61.png","62.png","63.png","64.png","65.png","66.png","67.png","68.png","69.png","70.png","71.png","72.png","73.png","74.png","75.png","76.png","77.png","78.png","79.png","80.png","81.png","82.png","83.png","84.png","85.png","86.png","87.png","88.png","89.png","90.png","91.png","92.png","93.png","94.png","95.png","96.png","97.png","98.png","99.png","100.png","sen.png");
+
+var arr = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,]
+var a = arr.length;
+
+var sen = [100,]
+ 
+
+while (a) {
+    var j = Math.floor( Math.random() * a );
+    var t = arr[--a];
+    arr[a] = arr[j];
+    arr[j] = t;
+}
+ 
+
+   
+
+
+
+   var output1 = "<img src='"+imglist[arr[1]]+"' id='size1''>"
+   var output2 = "<img src='"+imglist[arr[2]]+"' id='size2''>"
+   var output3 = "<img src='"+imglist[arr[3]]+"' id='size3''>"
+   var output4 = "<img src='"+imglist[arr[4]]+"' id='size4''>"
+   var output5 = "<img src='"+imglist[arr[5]]+"' id='size5''>"
+   var output6 = "<img src='"+imglist[arr[6]]+"' id='size6''>"
+   var output7 = "<img src='"+imglist[arr[7]]+"' id='size7''>"
+   var output8 = "<img src='"+imglist[arr[8]]+"' id='size8''>"
+   var output9 = "<img src='"+imglist[arr[9]]+"' id='size9''>"
+   var output11 = "<img src='"+imglist[arr[11]]+"' id='size11''>"
+   var output12 = "<img src='"+imglist[arr[12]]+"' id='size12''>"
+   var output13 = "<img src='"+imglist[arr[13]]+"' id='size13''>"
+   var output14 = "<img src='"+imglist[arr[14]]+"' id='size14''>"
+   var output15 = "<img src='"+imglist[arr[15]]+"' id='size15''>"
+   var output16 = "<img src='"+imglist[arr[16]]+"' id='size16''>"
+   var output17 = "<img src='"+imglist[arr[17]]+"' id='size17''>"
+   var output18 = "<img src='"+imglist[arr[18]]+"' id='size18''>"
+   var output19 = "<img src='"+imglist[arr[19]]+"' id='size19''>"
+   var outputsen = "<img src=" + imglist[sen[0]] + ">";
+   document.write(output1);
+   document.write(output2);
+   document.write(output3);
+   document.write(output4);
+   document.write(output5);
+   document.write(output6);
+   document.write(output7);
+   document.write(output8);
+   document.write(output9);
+document.getElementById("size1").width="150";
+document.getElementById("size1").onclick = function() {
+  element.remove();
+};
+document.getElementById("size2").width="150";
+document.getElementById("size3").width="150";
+document.getElementById("size4").width="150";
+document.getElementById("size5").width="150";
+document.getElementById("size6").width="150";
+document.getElementById("size7").width="150";
+document.getElementById("size8").width="150";
+document.getElementById("size9").width="150";
+   document.write(outputsen);
+   document.write(output11);
+   document.write(output12);
+   document.write(output13);
+   document.write(output14);
+   document.write(output15);
+   document.write(output16);
+   document.write(output17);
+   document.write(output18);
+   document.write(output19);
+document.getElementById("size11").width="150";
+document.getElementById("size12").width="150";
+document.getElementById("size13").width="150";
+document.getElementById("size14").width="150";
+document.getElementById("size15").width="150";
+document.getElementById("size16").width="150";
+document.getElementById("size17").width="150";
+document.getElementById("size18").width="150";
+document.getElementById("size19").width="150";
+
+
+</script>
+</div>
+</div>
